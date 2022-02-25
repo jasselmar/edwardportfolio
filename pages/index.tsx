@@ -23,7 +23,7 @@ export default function Home({ posts }: Props) {
             <div>
               <img
                 src={urlForImage(post.mainImage.asset).url()!}
-                className="shadow-xl transition-all duration-300 hover:scale-105	  "
+                className="shadow-xl transition-all duration-300 md:hover:scale-105	  "
               />
             </div>
             <div className="">
