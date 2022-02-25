@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Raleway:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+}
+
+.masonry {
+  column-count: 1;
+}
+
+.break-inside {
+  break-inside: avoid;
+}
+
+@media (min-width: 640px) {
+  .smasonry {
+    column-count: 3 !important;
+  }
+}

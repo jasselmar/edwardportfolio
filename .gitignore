@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 
+edwardportfolio/node_modules
+
 # testing
 /coverage
 

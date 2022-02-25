@@ -5,6 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      sans: ['Opens Sans', 'sans-serif'],
+      heading: ['Raleway', 'sans-serif'],
+    },
   },
   plugins: [],
 }
